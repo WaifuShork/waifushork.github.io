@@ -2,40 +2,78 @@
 {
     -webkit-font-smoothing: antialiased;
 }
-#logo
+.logo
 {
-    border-radius: 20px;
-    border: #212121 solid;
-    margin-left: 10px;
-    margin-top: 10px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    box-sizing: border-box;
+    width: 120px;
+    height: 124px;
+    margin-left: -2px;
+    margin-top: -2px;
+    text-align: center;
 }
+.font-size
+{
+    font-size: 400%;
+    margin-left: -280px;
+    margin-top: 280px;
+}
+
+.navigation .current
+{
+    margin-left: -55px;
+    margin-top: -2px;
+    text-decoration: underline black;
+    text-underline-offset: 15px;
+}
+
 #div-border
 {
-    border: 5px dashed black;
-    border-radius: 20px;
-    width: 700px;
+    border: 2px solid black;
+    width: 800px;
     height: 120px;
     margin: 50px auto auto;
 }
+
+#home-border
+{
+    border: 2px solid black;
+    width: 800px;
+    height: 800px;
+    margin: 50px auto auto;
+}
+
 
 #center
 {
     align-content: center;
 }
+span 
+{
+    word-spacing: normal;
+}
 
 .navigation
 {
-    color: white;
-    font-size: 300%;
-    font-family: monospace;
+    font-size: 250%;
+    font-family: "Montserrat Thin", sans-serif;
     text-align: center;
-    margin-top: -70px;
+    margin-top: -110px;
     margin-left: 60px;
-    font-weight: bolder;
+    word-spacing: 40px;
 }
 .navigation a:hover
 {
     color: white;
+}
+
+.transparent
+{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 #topics
