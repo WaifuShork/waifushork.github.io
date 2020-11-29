@@ -2,16 +2,28 @@
 {
     -webkit-font-smoothing: antialiased;
 }
+ul
+{
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+}
+#box
+{
+    border: 2px solid black;
+    width: 800px;
+    height: 100px;
+    margin: 40px auto auto;
+}
 .logo
 {
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     box-sizing: border-box;
-    width: 120px;
-    height: 124px;
-    margin-left: -2px;
-    margin-top: -2px;
+    margin-left: -700px;
+    margin-top: auto;
     text-align: center;
 }
 .font-size
@@ -21,20 +33,10 @@
     margin-top: 280px;
 }
 
-.navigation .current
+.nav .current
 {
-    margin-left: -55px;
-    margin-top: -2px;
     text-decoration: underline black;
     text-underline-offset: 15px;
-}
-
-#div-border
-{
-    border: 2px solid black;
-    width: 800px;
-    height: 120px;
-    margin: 50px auto auto;
 }
 
 #home-border
@@ -55,6 +57,18 @@ span
     word-spacing: normal;
 }
 
+.nav
+{
+    font-size: 175%;
+    list-style: none;
+    margin: -100px auto auto;
+    word-spacing: 50px;
+}
+.nav > li
+{
+    display: inline-block;
+}
+
 .navigation
 {
     font-size: 250%;
@@ -64,7 +78,8 @@ span
     margin-left: 60px;
     word-spacing: 40px;
 }
-.navigation a:hover
+
+.nav a:hover
 {
     color: white;
 }
