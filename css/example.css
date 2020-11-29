@@ -1,0 +1,85 @@
+﻿html 
+{
+    -webkit-font-smoothing: antialiased;
+}
+#logo
+{
+    border-radius: 20px;
+    border: #212121 solid;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#div-border
+{
+    border: 5px dashed black;
+    border-radius: 20px;
+    width: 700px;
+    height: 120px;
+    margin: 50px auto auto;
+}
+
+#center
+{
+    align-content: center;
+}
+
+.navigation
+{
+    color: white;
+    font-size: 300%;
+    font-family: monospace;
+    text-align: center;
+    margin-top: -70px;
+    margin-left: 60px;
+    font-weight: bolder;
+}
+.navigation a:hover
+{
+    color: white;
+}
+
+#topics
+{
+    font-family: monospace;
+    font-size: 500%;
+    text-align: center;
+}
+
+.welcome
+{
+    color: deeppink;
+    font-family: monospace;
+    font-size: 300%;
+    text-align: center;
+    outline: black;
+}
+
+p.normal 
+{
+    font-variant: normal;
+}
+p.small 
+{
+    font-variant: full-width;
+    font-weight: bolder;
+    font-size: 200%;
+    font-family: monospace;
+    text-align: center;
+    
+}
+h1.color 
+{
+    color: deeppink;
+}
+h1.left
+{
+    text-align: left;
+}
+h1.center
+{
+    text-align: center;
+}
+h1.right
+{
+    text-align: right;
+}
